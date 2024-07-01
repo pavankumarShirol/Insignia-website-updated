@@ -1,0 +1,659 @@
+body{
+    overflow-x: hidden;
+}
+.hero{
+    background-color:#32AFA5 ;
+}
+
+.cultural-banner {
+    background-color: rgb(50, 175, 165);
+    height: 0px;
+    margin-right: 0px;
+    z-index: -1;
+}
+
+
+.cultural-heading {
+    position: relative;
+    top: 53px;
+    left: 64px;
+    bottom: 0px;
+    z-index: 1;
+    margin-bottom: -112px;
+}
+
+.yakshgan-img {
+    position: relative;
+    margin-bottom: 124px;
+    margin-left: 840px;
+    z-index: 2;
+    top: -86px;
+}
+
+.cultural-links {
+    z-index: 1;
+    margin-top: -831px;
+    width: 1000px;
+    position: relative;
+    right: -83px;
+}
+
+.button-group{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button{
+
+    color: white;
+    background-color: #32AFA5;
+    margin-left: 71px;
+    margin-top: 48px;
+    text-decoration: none;
+    font-size: 38px;
+    height: 45px;
+    width: 322px;
+    border: 3px solid white;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    height: 80px;
+}
+
+.button:hover{
+
+    color: #32AFA5;
+    background-color: white;
+    border: 3px solid #32AFA5;
+}
+
+.centralized-banner {
+    background-color: rgb(127, 86, 144);
+    width: 100%;
+    height: 1100px;
+  
+    margin-top: 950px;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 1;
+}
+
+.centralized-heading{
+
+    position: relative;
+    top: 50px;
+   
+    right: -80px;
+    z-index: 1;
+}
+
+.boy-img{
+
+    position: relative;
+    z-index: 2;
+    
+    left: 900px;
+}
+.boy-img img{
+
+    height: 665px;
+    width: 700px;
+}
+
+.centralized-links{
+
+    position: relative;
+    z-index: 3;
+   
+    left:50px;
+    bottom:650px;
+  
+    width: 1000px;
+}
+
+.cen-btn{
+
+    background-color: #7F5690;
+    width: 380px;
+    margin-left: 70px;
+}
+
+.cen-btn:hover{
+
+    color: #7F5690;
+    background-color: white;
+    border: 3px solid #7F5690;
+}
+
+
+
+.technical-banner {
+    background-color: #F66C40;
+    width: 100%;
+    height: 1343px;
+   
+    margin-left: 0;
+    position: relative;
+    margin-right: 0;
+    z-index: 2;
+    top: -100px;
+   
+}
+
+.tech-heading {
+    position: relative;
+  
+    top: 47px;
+   
+    left: 64px;
+    z-index: -1;
+}
+
+
+.tech-links {
+    position: relative;
+    z-index: 1;
+   
+    width: 1000px;
+    bottom: 1104px;
+}
+
+.tech-links-2{
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin-top: -640px;
+    margin-left: 500px;
+    width: 1000px;
+}
+
+
+.two-link {
+    width: 800px;
+    position: relative;
+    bottom: 284px;
+  
+}
+
+.two-group{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tech-btn{
+
+    background-color: #F66C40;
+    width: 280px;
+    margin-left: 70px;
+}
+
+.tech-btn:hover{
+
+    color: #F66C40;
+    background-color: white;
+    border: 3px solid #F66C40;
+}
+
+.tech-boy-img{
+
+    /* position: relative; */
+    z-index: 1;
+    margin-bottom: -90px;
+    margin-left: 940px;
+}
+.tech-boy-img-2 {
+    position: relative;
+    z-index: 1;
+    top: -41px;
+}
+.tech-boy-img-2 img{
+   width: 500px;
+   height: 700px;
+   
+}
+
+
+
+
+/* Footer Styling */
+
+.footer-section{
+    margin-top: -100px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+/* .footer{
+    background-color: #343333;
+    color: white;
+    height: 800px;
+    position: relative;
+    bottom: 100px;
+    margin-bottom: 0px;
+} */
+
+.footer-title{
+
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.insignia-footer-logo{
+
+    position: relative;
+    top: 130px;
+    left: 40px;
+}
+
+.sub-title{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.date-and-loc{
+
+    position: relative;
+    bottom: 210px;
+    left: 60px;
+}
+
+.date-and-loc svg{
+
+    width: 40%;
+    position: relative;
+    top: 27px;
+    right: 330px;
+}
+
+.mail-details svg{
+
+    position: relative;
+    top: 26px;
+    right: 40px;
+}
+
+.mail-details{
+
+    position: relative;
+    bottom: 30px;
+}
+
+.contact-1{
+
+    position: relative;
+    bottom: 25px;
+}
+
+.contact-2{
+    position: relative;
+    bottom: 55px;
+}
+
+.contacts svg{
+
+    position: relative;
+    top: 24px;
+    right: 34px;
+}
+
+.contacts{
+
+    position: relative;
+    bottom: 37px;
+}
+
+.connect-section{
+
+    position: relative;
+    /* top: 90px; */
+    left: 60px;
+    bottom: 180px;
+}
+
+.details{
+
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #A5D6E7;
+}
+
+.insignia-footer-logo img{
+
+    position: relative;
+    left: 1080px;
+    top: 40px;
+}
+
+.reach-out-section{
+
+    position: relative;
+    bottom: 380px;
+    text-align: center;
+    font-family: 'Mina', sans-serif;
+}
+
+.links{
+
+    position: relative;
+    bottom: 100px;
+}
+
+.end-text{
+
+    position: relative;
+    bottom: 500px;
+    text-align: center;
+    color: #7b7a7a;
+}
+
+/* ------------------------Responsiveness-------------------------------------------------*/
+/* NavBar Responsive */
+/* @media screen and (max-width:700px){
+    
+    .navbar_height{
+
+        width: 375px;
+    }
+    
+
+    .hero #insignia_logo{
+        position: fixed;
+    }
+
+    .top-bar{
+
+        max-width: 100%;
+        height: auto;
+    }
+
+    .logo-img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .dvh-img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .cultural-banner{
+
+        max-width: 100%;
+        height: auto;
+    }
+
+} */
+
+/* Cultural Section Responsive */
+@media screen and (max-width:700px){
+
+    html, body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative
+    }
+
+    .cultural-banner {
+        top: 100px;
+        height: 600px;
+        max-width: 100%;
+        height: 5px;
+    }
+
+    .cultural-heading {
+        position: relative;
+        top: 53px;
+        left: 43px;
+        bottom: 0px;
+        z-index: 1;
+        margin-bottom: -112px;
+    }
+
+    .cultural-links {
+        position: relative;
+        z-index: 1;
+        top: 621px;
+        /* margin-left: 20px; */
+        left: 9px;
+        width: 500px;
+    }
+
+    .button-group{
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .button{
+
+        color: white;
+        background-color: #32AFA5;
+        margin-left: 16px;
+        margin-top: 8px;
+        text-decoration: none;
+        font-size: 22px;
+        height: 62.29px;
+        width: 154px;
+        border: 3px solid white;
+        border-radius: 31px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 300;
+    }
+
+    .yakshgan-img {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -520px;
+        margin-left: 60px;
+        top: 483px;
+        /* right: 20px; */
+        /* height: 600px; */
+        /* width: 550px; */
+    }
+}
+
+/* Centralized Section Responsive */
+@media screen and (max-width: 700px) {
+    
+    .centralized-banner {
+        background-color: #7F5690;
+        width: 100%;
+        height: 1100px;
+        /* position: absolute; */
+        margin-top: 880px;
+        margin-left: 0;
+        margin-right: 0;
+        z-index: -1;
+    }
+
+    .centralized-heading {
+        position: relative;
+        top: 57px;
+        right: -43px;
+        z-index: 1;
+    }
+
+    .button-group{
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .centralized-links {
+        position: relative;
+        z-index: 3;
+        top: -377px;
+        left: -9px;
+        bottom: 650px;
+        width: 500px;
+    }
+
+    #centralized_img{
+        width: 80%;
+    }
+
+    .cen-btn{
+
+        background-color: #7F5690;
+        width: 164px;
+        margin-left: 70px;
+        font-size: 16px;
+        height: 62.29px;
+        margin-left: 16px;
+        margin-top: 8px;
+    }
+
+    .boy-img img {
+        height: 458px;
+        width: 582px;
+        position: relative;
+        right: 898px;
+        top: 364px;
+    }
+
+}
+
+
+
+@media screen and (max-width:700px){
+    .technical-banner {
+        margin-top: -109px;
+        height: inherit;
+    }
+
+    .tech-heading {
+        position: relative;
+        top: 47px;
+        left: 43px;
+        z-index: -1;
+    }
+
+    .tech-links {
+        width: 500px;
+        margin-top: 957px;
+        position: relative;
+        right: 10px;
+    }
+
+    .tech-btn {
+        background-color: #F66C40;
+        width: 166px;
+        margin-left: 70px;
+        font-size: 22px;
+        height: 62.29px;
+        margin-left: 16px;
+    }
+
+    .two-link {
+        width: 500px;
+        position: relative;
+        right: 508px;
+        bottom: 55px;
+    }
+
+    .tech-boy-img-2 img{
+        position: relative;
+        z-index: 1;
+        top: 445px;
+        height: 40%;
+        left: 65px;
+        width: 60%;
+    }
+    .tech-boy-img {
+        position: relative;
+        z-index: 1;
+        width: 30%;
+        bottom: -91px;
+        left: -933px;
+        top: 57px;
+    }
+}
+
+/* footer responsive */
+@media screen and (max-width:700px){
+
+    .footer{
+        position: relative;
+        height: 1000px;
+    }
+
+    /* .insignia-footer-logo img {
+        width: 50%;
+    } */
+
+   
+
+    .insignia-footer-logo img {
+        position: absolute;
+        top: -137px;
+        left: 353px;
+    }
+
+    picture{
+        position: relative;
+    }
+    .footer-logo{
+
+        position: absolute;
+        left: -300px;
+        bottom: 140px;
+
+        z-index: 4;
+    }
+
+    .date-and-loc {
+        position: relative;
+        bottom: -58px;
+        right: 45px;
+    }
+
+    .sub-title{
+
+        position: relative;
+        left: -40px;
+    }
+    .date-and-loc h4 {
+
+        font-size: 20px;
+    }
+
+    .details{
+
+        font-size: 16px;
+        position: relative;
+        left: -40px;
+    }
+
+    .connect-section {
+        position: relative;
+        top: 72px;
+    }
+
+    .reach-out-section {
+        position: relative;
+        top: 10px;
+    }
+
+    .end-text{
+
+        position: relative;
+        top: -170px;
+    }
+}

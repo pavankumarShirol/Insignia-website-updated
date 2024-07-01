@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* style for sdm title and two logos */
+
+.top_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343333;
+    color: white;
+    height: 94px;
+    padding-left: 57px;
+    padding-right: 57px;
+    /* font-family: 'Poppins', sans-serif; */
+    overflow: hidden;
+}
+.top_bar .title{
+    /* border: 1px solid white; */
+    width: 55%;
+}
+.top_bar h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.top_bar .img1{
+    width: 53px; 
+    height: 57px;
+}
+.top_bar .img2{
+    width: 52px; 
+    height: 57px;
+}
+
+@media(max-width:768px){
+    .top_bar .img2{
+        display: none;
+    }
+    .top_bar .title{
+        width: 100%;
+    }
+    .top_bar .img1{
+        height: 47px;
+        width: 43px;
+        margin-left: 5px;
+    }
+    .top_bar{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 80px;
+    }
+    .top_bar h3{
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 5px;
+        text-align: left;
+    }
+}
+
+
+
+
+
+/* Navigation bar */
+.hero{
+    /* background-color:#FFEF7B ; */
+}
+
+#navbar_height{
+    height: 86px;
+}
+nav{
+    /* background-color: #1B3151; */
+    /* height: 86px; */
+
+    /* position: absolute; */
+/* width: 1440px; */
+/* height: 86px; */
+/* left: 72px; */
+/* top: 282px; */
+
+background: linear-gradient(90.56deg, rgba(255, 255, 255, 0.4) 6.88%, rgba(255, 255, 255, 0.1) 93.95%);
+box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2);
+/* background-color: #A5D6E7; */
+backdrop-filter: blur(15px);
+position: sticky;
+}
+
+.navbar-nav li a{
+    font-size: 18px;
+    color: #1B3151 !important;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.navbar-nav li a:hover{
+    color: #f66c40 !important;
+}
+.hero #insignia_logo{
+    width: 60px;
+    height: 100px;
+    margin-left: 60px;
+}
+
+
+@media(max-width:768px){
+    
+    .hero #insignia_logo{
+        width: 50px;
+        height: 90px;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+}

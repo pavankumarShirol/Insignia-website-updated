@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+
+/* main css file for all events section */
+
+.section{
+    height: 820px;
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 80px;
+    /* background: linear-gradient(115.6deg, #F85A80 2.51%, #FFFFFF 49.59%, #FFFFFF 79.51%, rgba(127, 86, 144, 0.95) 101.41%); */
+    background: linear-gradient(180deg, #F85A80 -12.67%, #FFFFFF 36.29%, #FFFFFF 67.42%, rgba(141, 98, 160, 0.95) 90.2%);
+/* filter: blur(100px); */
+    /* background: linear-gradient(180deg, #7F5690 -12.67%, #FFFFFF 36.29%, #FFFFFF 67.42%, rgba(127, 86, 144, 0.95) 90.2%); */
+    padding-bottom: 30px;
+}
+.section_poster{
+    font-family: 'Mina', sans-serif;
+}
+.section_poster img{
+    /* width: 597px; */
+    width: 520px;
+    height: 560px;
+}
+.section_poster #time{
+    margin-left: 180px;
+    /* margin-top: 20px; */
+}
+.section_poster .info{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+.section_poster .info #none{
+    display: none;
+}
+.section_text{
+    /* border: 1px solid red; */
+    padding: 10px;
+    padding-left: 40px;
+}
+.section_text h3{
+    font-family: 'Limelight', cursive;
+    font-size: 52px;
+}
+.section_text p{
+    font-family: 'Montserrat', sans-serif;
+}
+.section_text h4, ol li,button{
+    font-family: 'Mina', sans-serif;
+}
+
+@media(max-width:768px){
+    .section{
+        padding: 8px;
+        padding-top: 15px;
+        text-align: center;
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    .section_poster img{
+        width: 276px;
+        height: 297px;
+    }
+    .section_poster #time{
+        display: none;
+    }
+    .section_poster .info{
+        text-align: left;
+    }
+    .section_poster .info #none{
+     display: block;
+    }
+    .section_poster .info #a{
+        display: none;
+    }
+
+
+    .section_text{
+        padding: 5px;
+        padding-left: 0;
+        text-align: left;
+        /* border: 1px solid red; */
+    }
+    .section_text h3{
+        font-size: 26px;
+    }
+    .section_text p{
+        font-size: 13px;
+    }
+    .section_text ol li{
+        font-size: 14px;
+    }
+}
